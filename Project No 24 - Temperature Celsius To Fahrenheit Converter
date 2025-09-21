@@ -25,9 +25,9 @@ celsius = float(input("Enter Temperature In Celsius: \n"))
 fahrenheit = celsius * 9 / 5 + 32
 
 # Step 3: Display classification
-if fahrenheit < 32:
+if fahrenheit <= 32:
     print(f"{fahrenheit:.2f}°F - Freezing")
-elif 32 <= fahrenheit <= 50:
+elif 33 <= fahrenheit <= 50:
     print(f"{fahrenheit:.2f}°F - Cold")
 elif 51 <= fahrenheit <= 77:
     print(f"{fahrenheit:.2f}°F - Warm")
